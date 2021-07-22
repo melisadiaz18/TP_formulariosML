@@ -1,7 +1,6 @@
 /** Movil **/
 
 .register main{
-   
    min-width: 340px; 
    max-width: 100%;
     margin: 0 auto;
@@ -11,7 +10,7 @@
 .register main h1{
     text-align: center;
     font-size: 28px;
-    margin: 20px 0;
+    margin: 40px 0;
 }
 
 .register form div{
@@ -20,6 +19,10 @@
 
 .register main form div.box-form div.options div{
     margin: 8px 0; 
+}
+
+.register main form div.box-form div.options{
+    margin-left: 5%; 
 }
 
 .register main form div.box-form div.box-form input.img-profile{
@@ -32,6 +35,10 @@
     flex-wrap: wrap;
     margin: 12px 0;
   
+}
+
+.register main form div.box-form div.radio{
+    margin-left: 2%;
 }
 
 .register main form div.box-form div.radio div{

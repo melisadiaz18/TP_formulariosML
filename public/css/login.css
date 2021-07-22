@@ -1,0 +1,71 @@
+/** Movil **/
+
+.login main{
+   min-width: 340px; 
+    max-width: 100%;
+    min-height: 450px;
+    margin: 120px auto 10px auto;
+    padding:0 10%;
+ }
+ 
+ .login main h1{
+    text-align: center;
+    font-size: 28px;
+    margin: 20px 0;
+}
+
+.login main form div{
+    padding: 10px 0;
+    margin: 20px 0;
+}
+
+.login main div.main-login form div.box-form label.forms{
+    padding: 5px;
+}
+
+.login input.barra{
+    width: 100%;
+    padding: 5px;
+    margin-top: 5px;
+    border: none;
+    border-radius: 5px;
+}
+
+.login main form div.box-button{
+    text-align: center;
+}
+
+.login main form div.box-button button{
+    display:inline-block;
+    color: whitesmoke;
+    padding: 8px;
+    margin: 30px 0;
+    background-color: var(--Celeste);
+    border: none;
+    border-radius: 5px;
+    width: 200px;
+}
+
+.login main form div.box-button button:hover{
+    background-color: var(--GrisOscuro);
+}
+
+
+
+/** tablet **/
+@media (min-width:768px){
+
+    .login main{
+        padding: 0 20%;
+     }
+
+}
+
+/** desktop **/
+@media (min-width:1024px){
+
+    .login main{
+        padding: 0 30%;
+     }
+
+}
