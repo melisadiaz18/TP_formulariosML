@@ -1,0 +1,86 @@
+/** Movil **/
+
+.register main{
+   
+   min-width: 340px; 
+   max-width: 100%;
+    margin: 0 auto;
+    padding: 0 10%;
+}
+
+.register main h1{
+    text-align: center;
+    font-size: 28px;
+    margin: 20px 0;
+}
+
+.register form div{
+    padding: 5px 0;
+}
+
+.register main form div.box-form div.options div{
+    margin: 8px 0; 
+}
+
+.register main form div.box-form div.box-form input.img-profile{
+    width: 100%;
+}
+
+.register main form div.box-form h4, .register main form div.box-form label.forms{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 12px 0;
+  
+}
+
+.register main form div.box-form div.radio div{
+    display: inline-block;
+    padding: 0 3px;
+    margin: 2px 4px;
+}
+
+.register input.barra{
+    width: 100%;
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+}
+
+.register main form div.box-button{
+    text-align: center;
+}
+
+.register main form div.box-button button{
+    display: inline-block;
+    padding: 8px;
+    color: whitesmoke;
+    background-color: var(--Celeste);
+    border: none;
+    margin: 30px 10px;
+    border-radius: 5px;
+    width: 100px;
+}
+
+.register main form div.box-button button:hover{
+    background-color: var(--GrisOscuro);
+}
+
+
+/** tablet **/
+@media (min-width:768px){
+
+    .register main{
+        padding: 0 20%;
+     }
+
+}
+
+/** desktop **/
+@media (min-width:1024px){
+
+    .register main{
+        padding: 0 30%;
+     }
+
+}

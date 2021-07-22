@@ -1,0 +1,145 @@
+/** movil **/
+
+
+.home .banner img{
+    display: none;
+    width: 100%;
+}
+
+.home main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: auto;
+    margin: auto;
+}
+
+.home .seccion-main{
+    width:90%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.home h2{
+    font-size: var(--Font-size-Titulares);
+    width: 100%;
+    padding: 0;
+    margin: 20px 0 5px;
+    color: var(--GrisOscuro)
+}
+
+
+.home .caja1{
+    width: 100%;
+    text-align: right;
+    height: 0;
+}
+
+
+.home .envio-producto{
+    color: var(--Verde);
+    margin: 4px;
+    border-radius: 50%;
+    border: 1px solid var(--Verde);
+    padding: 5px;
+    position: right;
+    position: relative;
+    top: -22px;
+}
+
+.home .caja2{
+    display: flex;
+    text-align: left;
+}
+
+
+.home .precio{
+    font-size: var(--Font-size-Precios);
+    margin: 4px;
+    width: 30%;
+}
+
+.home h4{
+    display: none;
+    color: var(--GrisOscuro)
+}
+
+.home span{
+    font-size: var(--Font-size-Descuentos);
+    margin: 4px;
+    color: var(--Verde);
+    width: 70%;
+}
+
+img{
+    width: 100%;
+}
+
+.home .producto{
+    width: 100%;
+}
+
+.home .detalle-producto{
+    padding: 10px;
+    margin-bottom: 10px;
+    border-top: 1px solid var(--GrisClaro);
+    border-left: 15px;
+    border-right: 15px;
+    background-color: white;
+
+}
+    
+
+
+/** tablet **/
+@media (min-width:768px){
+   
+.home .banner img{
+    display: block;
+}
+   
+.home h2{
+    width:90%;
+}
+
+.home h4{
+    display: block;
+    font-size: var(--Font-size-Descripciones);
+    padding: 10px;
+    text-align:left;
+    background-color: white;
+    border: 0 15px;
+}
+   
+.home .seccion-main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+
+.home .producto{
+    box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    width:45%;
+    margin-bottom: 10px;
+}
+   
+.home .detalle-producto{
+    margin-bottom: 0;   
+}
+   
+}  
+
+
+   /** desktop **/
+ @media (min-width : 1024px){
+
+.home .producto{
+    width:22%;
+}
+
+.home span{
+    margin: 4px 0 4px 25px;
+}
+
+}

@@ -1,0 +1,67 @@
+/** movil **/
+
+footer{
+    text-align: center;
+    background-color: var(--GrisClaro);
+    border: 5px solid var(--GrisClaro);
+}
+
+footer .iconos{
+    font-size: 2em;
+    color: var(--Celeste);
+    padding: 0 10px;
+    margin: 10px;
+}
+
+h3{
+    font-size: var(--Font-size-Descripciones);
+    color: black;
+    padding-top: 2px;
+}
+
+footer .seccion-footer{
+    background-color: white;
+    padding-top: 40px;
+}
+
+footer .container{
+    color: var(--GrisOscuro);
+    background-color: white;
+    font-size: var(--Font-size-p);
+    width: 100%;
+    padding: 0 15%;
+    text-align: center;
+    display: block;
+}
+
+footer .copyright{
+    color: var(--GrisOscuro);
+    background-color: white;
+    font-size: var(--Font-size-p);
+    padding-bottom: 10px;
+    padding-top: 30px;
+}
+
+
+/** tablet **/
+
+@media (min-width:768px){
+    
+}
+
+
+/** desktop **/
+@media (min-width : 1024px){
+
+    .caja-footer{
+        display: flex;
+        justify-content: space-around;
+        height: 200px;
+        padding-top: 10px;
+    }
+    
+    h3{
+        padding-bottom: 5px;
+    }
+    
+}

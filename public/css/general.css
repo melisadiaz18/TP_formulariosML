@@ -1,0 +1,42 @@
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: var(--GrisClaro);
+    min-width: 320px;
+}
+
+li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+
+:root{
+
+    /*colores*/
+    --Amarillo: #EAC926;
+    --Azul: #03264C;
+    --Celeste: #1259c3;
+    --GrisOscuro: #666;
+    --GrisClaro: #ebebeb;
+    --Verde: #39b54a;
+
+
+    /*tipografias*/
+    --Font-size-p: 12px;   /*p y cuerpo de textos*/
+    --Font-size-Titulares: 24px;
+    --Font-size-Precios: 18px;
+    --Font-size-Descuentos: 16px;
+    --Font-size-Descripciones: 16px;
+
+}

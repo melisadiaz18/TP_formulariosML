@@ -1,0 +1,142 @@
+/** movil **/
+
+header{
+    background-color: var(--Amarillo);
+    padding: 10px 0 0;
+    min-height: 180px;
+}
+
+header .logo{
+    padding-top: 20px;
+    margin-left: 20px;
+    margin-bottom: 15px;
+    width: 50%;
+    display: flex;
+    align-items: center;
+
+}
+
+header .buscar{
+    font-size: var(--Font-size-p);
+    color: var(--GrisOscuro);
+    background-color: white;
+    display: inline-block;
+    margin: 4px 0 4px 15px;
+    padding: 4px;
+    min-width: 120px;
+    width: 100%;
+    height: 25px;
+    border-radius: 4px 0 0 4px;
+
+}
+
+header .lupa{
+    display: inline-block;
+    font-size: var(--Font-size-p);
+    margin: 4px 0;
+    width: 25px;
+    height: 25px;
+    padding: 4px 0;
+    background-color: white;
+    border-radius: 0 4px 4px 0;
+}
+
+.barra-busqueda{
+    display: flex;
+    align-items: center;
+    width: 50%;
+}
+
+.caja-encabezado{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    padding-right: 5%;
+}
+
+header .cuotas{
+    font-size: var(--Font-size-p);
+    display: block;
+    text-align: center;
+    margin: 10px 0;
+}
+
+.menu-site{
+    display: none;
+}
+
+.menu-login-navbar{
+    display: none;
+}
+
+header .burger{
+    width: 35px;
+    background-color: var(--Azul);
+    color: white;
+    padding: 8px;
+    border-radius: 4px;
+    margin: 20px auto;
+    text-align: center;
+    display: block;
+}
+
+
+/** tablet **/
+
+@media (min-width:768px){
+ 
+    header{
+        min-height: 150px;
+    }
+    
+    header .logo{ 
+        width:50%;
+    }
+       
+    header .buscar{
+        width:100%;
+    }
+         
+    .caja-encabezado{
+        width: 66%;
+    }
+    
+    .encabezado-completo{
+        display: flex;
+        justify-content: space-around;
+        width: 100%;
+        padding-right: 5%;
+    }
+    
+    header .cuotas{
+        padding-top: 20px;
+        width: 100%;
+    }
+    
+    .caja-menu{
+        display: flex;
+        justify-content: space-between;
+        font-size: var(--Font-size-p);
+    }
+    
+    .caja-menu li{
+        padding: 0 8px;
+    }
+    
+    .menu-site, .menu-login-navbar{
+        display: flex;
+        padding: 20px;
+    }
+       
+            
+    header .burger{
+        display: none;
+    }
+         
+}
+
+
+/** desktop **/
+@media (min-width : 1024px){
+    
+}
