@@ -44,7 +44,7 @@
     padding: 5px;
     position: right;
     position: relative;
-    top: -22px;
+    top: -19.8px;
 }
 
 .home .caja2{
@@ -77,19 +77,17 @@ img{
 
 .home .producto{
     width: 100%;
+    background-color: white;
+    margin-bottom: 10px;
 }
 
 .home .detalle-producto{
     padding: 10px;
-    margin-bottom: 10px;
     border-top: 1px solid var(--GrisClaro);
     border-left: 15px;
     border-right: 15px;
-    background-color: white;
-
 }
     
-
 
 /** tablet **/
 @media (min-width:768px){
